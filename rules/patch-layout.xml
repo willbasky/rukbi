@@ -14,7 +14,7 @@
         <variant>
           <configItem>
             <name>deu</name>
-            <shortDescription>Enß</shortDescription>
+            <shortDescription>ende</shortDescription>
             <description>Rukbi English + Deutsch</description>
             <languageList>
               <iso639Id>eng</iso639Id>
@@ -41,7 +41,7 @@
       <configItem>
         <name>rukbi_ru</name>
         <shortDescription>ru</shortDescription>
-        <description>Русская раскладка «Рукби»</description>
+        <description>Russian Rukbi</description>
         <countryList>
           <iso3166Id>RU</iso3166Id>
         </countryList>
@@ -53,8 +53,8 @@
         <variant>
           <configItem>
             <name>ukr</name>
-            <shortDescription>rua</shortDescription>
-            <description>Русская раскладка «Рукби» с украинскими буквами</description>
+            <shortDescription>ruua</shortDescription>
+            <description>Russian Rukbi + Ukrainian</description>
             <languageList>
               <iso639Id>rus</iso639Id>
               <iso639Id>ukr</iso639Id>
@@ -67,7 +67,7 @@
       <configItem>
         <name>rukbi_uk</name>
         <shortDescription>ua</shortDescription>
-        <description>Українська розкладка «Рукбі»</description>
+        <description>Ukrainian Rukbi</description>
         <countryList>
           <iso3166Id>UA</iso3166Id>
         </countryList>
@@ -79,8 +79,8 @@
         <variant>
           <configItem>
             <name>rus</name>
-            <shortDescription>ua</shortDescription>
-            <description>Українська розкладка «Рукбі» з російськими літерами</description>
+            <shortDescription>uaru</shortDescription>
+            <description>Ukrainian Rukbi + Russian</description>
             <languageList>
               <iso639Id>ukr</iso639Id>
               <iso639Id>rus</iso639Id>
