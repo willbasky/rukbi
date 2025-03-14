@@ -1,8 +1,11 @@
     <layout>
       <configItem>
         <name>rukbi_en</name>
+        <shortDescription>en</shortDescription>
         <description>Rukbi English</description>
-        <shortDescription>Eng</shortDescription>
+        <countryList>
+          <iso3166Id>EN</iso3166Id>
+        </countryList>
         <languageList>
           <iso639Id>eng</iso639Id>
         </languageList>
@@ -11,8 +14,8 @@
         <variant>
           <configItem>
             <name>deu</name>
-            <description>Rukbi English + Deutsch</description>
             <shortDescription>Enß</shortDescription>
+            <description>Rukbi English + Deutsch</description>
             <languageList>
               <iso639Id>eng</iso639Id>
               <iso639Id>deu</iso639Id>
@@ -24,19 +27,24 @@
     <layout>
       <configItem>
         <name>rukbi_de</name>
+        <shortDescription>de</shortDescription>
         <description>Rukbi Deutsch</description>
-        <shortDescription>Deu</shortDescription>
+        <countryList>
+          <iso3166Id>DE</iso3166Id>
+        </countryList>
         <languageList>
           <iso639Id>deu</iso639Id>
         </languageList>
       </configItem>
-      <variantList/>
     </layout>
     <layout>
       <configItem>
         <name>rukbi_ru</name>
+        <shortDescription>ru</shortDescription>
         <description>Русская раскладка «Рукби»</description>
-        <shortDescription>Рус</shortDescription>
+        <countryList>
+          <iso3166Id>RU</iso3166Id>
+        </countryList>
         <languageList>
           <iso639Id>rus</iso639Id>
         </languageList>
@@ -45,8 +53,8 @@
         <variant>
           <configItem>
             <name>ukr</name>
+            <shortDescription>rua</shortDescription>
             <description>Русская раскладка «Рукби» с украинскими буквами</description>
-            <shortDescription>РуЇ</shortDescription>
             <languageList>
               <iso639Id>rus</iso639Id>
               <iso639Id>ukr</iso639Id>
@@ -58,8 +66,11 @@
     <layout>
       <configItem>
         <name>rukbi_uk</name>
-        <shortDescription>Укр</shortDescription>
+        <shortDescription>ua</shortDescription>
         <description>Українська розкладка «Рукбі»</description>
+        <countryList>
+          <iso3166Id>UA</iso3166Id>
+        </countryList>
         <languageList>
           <iso639Id>ukr</iso639Id>
         </languageList>
@@ -68,8 +79,8 @@
         <variant>
           <configItem>
             <name>rus</name>
+            <shortDescription>ua</shortDescription>
             <description>Українська розкладка «Рукбі» з російськими літерами</description>
-            <shortDescription>УкЪ</shortDescription>
             <languageList>
               <iso639Id>ukr</iso639Id>
               <iso639Id>rus</iso639Id>
