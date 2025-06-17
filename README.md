@@ -11,4 +11,5 @@ mark: `«`.
 
 ## How to install on arch linux
 
+See [INSTALL.md](INSTALL.md)
 
