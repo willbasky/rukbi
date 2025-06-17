@@ -7,7 +7,7 @@ arch=("any")
 license=("MIT")
 depends=("git" "xkeyboard-config" "python")
 source=(
-  "git+https://github.com/willbasky/rukbi.git#commit=64797da0ee7c8edaf086f66ec04074398e73ccfd")
+  "git+https://github.com/willbasky/rukbi.git#commit=4c1db265d6aacdb0ca454dc8d381ceb4cf808dac")
 sha256sums=('SKIP')
 install=arch-install
 
