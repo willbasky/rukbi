@@ -1,0 +1,22 @@
+pkgname=rukbi
+pkgdesc="Alternative keyboard layouts with miscellaneous useful typographic characters"
+pkgver=4.3
+pkgrel=1
+url="https://ilyabirman.ru/typography-layout/"
+arch=("any")
+license=("MIT")
+depends=("git" "xkeyboard-config" "python")
+source=(
+  "git+https://github.com/willbasky/rukbi.git#commit=64797da0ee7c8edaf086f66ec04074398e73ccfd")
+sha256sums=('SKIP')
+install=arch-install
+
+package() {
+    local xkbdir="$pkgdir/etc/X11/xkb"
+    cd "$srcdir/rukbi"
+
+    install -d $xkbdir/rukbi/install $xkbdir/rukbi/symbols $xkbdir/rukbi/rules
+    install -m 0755 install/* $xkbdir/rukbi/install/
+    install -m 0644 symbols/* $xkbdir/rukbi/symbols/
+    install -m 0644 rules/* $xkbdir/rukbi/rules/
+}

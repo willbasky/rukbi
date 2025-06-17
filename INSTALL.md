@@ -1,20 +1,18 @@
-Installing Rukbi
-================
+## Installing Rukbi
 
-Run `install/install` as a superuser:
 
-```bash
-sudo install/install
-```
+    cd arch-build
+    makepkg -f .
+    sudo pacman -U rukbi-4.3-1-any.pkg.tar.zst
+    sudo etc/X11/xkb/rukbi/install/install
 
-This script should take care of installation. In case of problems, provide the path to the XKB directory explicity:
+## Removing Rukbi
 
-```bash
-sudo install/install -d /usr/local/X11/xkb
-```
+1. Remove the package:
 
-Removing Rukbi
-==============
+    sudo packman -Rs rukbi
+
+2. Remove patches:
 
 An automated tool to remove Rukbi is not provided. You have to remove Rukbi files manually from the XKB directory
 (usually `/usr/share/X11/xkb` or `/etc/X11/xkb`; look for `rukbi_*` files in the `symbols` subdirectory). After that,
