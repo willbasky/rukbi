@@ -61,7 +61,7 @@ xkb_symbols "basic" {
 
 partial alphanumeric_keys
 xkb_symbols "deu" {
-    include "rukbi_en(basic)"
+    include "eng(basic)"
     name[Group1]="Rukbi English + German";
 
     key <TLDE> {[grave, asciitilde, section, approxeq]}; // moved from A and S keys

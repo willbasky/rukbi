@@ -1,6 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xkbConfigRegistry version="1.1">
+  <layoutList>
     <layout>
       <configItem>
-        <name>rukbi_en</name>
+        <name>eng</name>
         <shortDescription>en</shortDescription>
         <description>Rukbi English</description>
         <countryList>
@@ -26,7 +29,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>rukbi_de</name>
+        <name>deu</name>
         <shortDescription>de</shortDescription>
         <description>Rukbi Deutsch</description>
         <countryList>
@@ -39,7 +42,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>rukbi_ru</name>
+        <name>rus</name>
         <shortDescription>ru</shortDescription>
         <description>Russian Rukbi</description>
         <countryList>
@@ -53,7 +56,7 @@
         <variant>
           <configItem>
             <name>ukr</name>
-            <shortDescription>ruua</shortDescription>
+            <shortDescription>ruuk</shortDescription>
             <description>Russian Rukbi + Ukrainian</description>
             <languageList>
               <iso639Id>rus</iso639Id>
@@ -65,8 +68,8 @@
     </layout>
     <layout>
       <configItem>
-        <name>rukbi_uk</name>
-        <shortDescription>ua</shortDescription>
+        <name>ukr</name>
+        <shortDescription>uk</shortDescription>
         <description>Ukrainian Rukbi</description>
         <countryList>
           <iso3166Id>UA</iso3166Id>
@@ -79,7 +82,7 @@
         <variant>
           <configItem>
             <name>rus</name>
-            <shortDescription>uaru</shortDescription>
+            <shortDescription>ukru</shortDescription>
             <description>Ukrainian Rukbi + Russian</description>
             <languageList>
               <iso639Id>ukr</iso639Id>
@@ -89,3 +92,5 @@
         </variant>
       </variantList>
     </layout>
+  </layoutList>
+</xkbConfigRegistry>
